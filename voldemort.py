@@ -9,7 +9,7 @@ for file in os.listdir(): # list every file in directory
         continue
     if os.path.isfile(file):# also do not take folder in directory
         files.append(file)
-print(files)
+# print(files)
 
 key = Fernet.generate_key()
 
